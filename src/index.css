@@ -68,7 +68,7 @@ button:focus-visible {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
   margin: 20px;
   border-radius: 5px;
@@ -77,9 +77,13 @@ button:focus-visible {
 .card > div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.card > a,p {
+.card > p {
+  margin: 20px;
+}
+
+.card > a {
   margin: 20px;
 }

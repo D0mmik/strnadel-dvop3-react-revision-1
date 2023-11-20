@@ -7,10 +7,10 @@ function App() {
   return (
     <div className='container'>
       <Card/>
-      <CardDynamic heading="test" description="popisek" link="link"/>
-      <CardDynamic heading="dominik" description="hezci popisek" link="seznam.cz"/>
-      <CardDynamic heading="skola" description="obchod" link="alza.cz"/>
-      <CardDynamic heading="github" description="videa" link="youtube.com"/>
+      <CardDynamic heading="test" description="popisek" link="https://dominikstrnadel.eu/" linkName="link"/>
+      <CardDynamic heading="dominik" description="hezci popisek" link="https://www.seznam.cz/" linkName="seznam.cz"/>
+      <CardDynamic heading="skola" description="obchod" link="https://www.alza.cz/" linkName="alza.cz"/>
+      <CardDynamic heading="github" description="videa" link="https://www.youtube.com/" linkName="youtube.com"/>
     </div>
   )
 }

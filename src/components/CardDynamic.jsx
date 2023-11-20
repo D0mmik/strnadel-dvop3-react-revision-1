@@ -7,7 +7,7 @@ const CardDynamic = (props) => {
             <h2>{props.heading}</h2>
             <div>
                 <p>{props.description}</p>
-                <a href="ssps.cz">{props.link}</a>
+                <a href={props.link}>{props.linkName}</a>
             </div>
         </div>
     )
